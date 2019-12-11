@@ -12,7 +12,7 @@
   {{ end }}
 
   <p class="powered-by">
-    Last Modified {{ .Lastmod.Format site.Params.date_format }}
+    Last Modified on {{ .Lastmod.Format site.Params.date_format }} &middot;
 
     {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
 
