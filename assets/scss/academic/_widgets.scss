@@ -379,6 +379,15 @@ ul.ul-exp li .description p.year {
   color: rgba(0,0,0,0.6);
 }
 
+ul.ul-award {
+  list-style: none;
+}
+
+ul.ul-award li {
+  position: relative;
+  padding: 0px 15px 4px 3px;
+}
+
 /*************************************************
  * Experience
  **************************************************/
