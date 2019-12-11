@@ -388,6 +388,15 @@ ul.ul-award li {
   padding: 0px 15px 4px 3px;
 }
 
+ul.ul-award li .description p {
+  margin: 0;
+}
+
+ul.ul-award li .description p.date {
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
+
 /*************************************************
  * Experience
  **************************************************/

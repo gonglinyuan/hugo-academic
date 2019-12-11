@@ -21,6 +21,10 @@
         {{ else if eq .type "Teach" }}
         <i class="fa-li fas fa-chalkboard-teacher"></i>
         {{ end }}
+        <div class="description">
+          <p class="title">{{ .title }}</p>
+          <p class="date">{{ .date }}</p>
+        </div>
       </li>
     {{end}}
     </ul>
