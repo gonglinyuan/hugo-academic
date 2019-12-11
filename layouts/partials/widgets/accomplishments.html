@@ -14,11 +14,11 @@
     <ul class="ul-award fa-ul">
     {{ range $page.Params.item }}
       <li>
-        {{ if eq $.type "Award" }}
+        {{ if eq .type "Award" }}
         <i class="fa-li fas fa-trophy"></i>
-        {{ else if eq $.type "Scholarship" }}
+        {{ else if eq .type "Scholarship" }}
         <i class="fa-li fas fa-award"></i>
-        {{ else if eq $.type "Teach" }}
+        {{ else if eq .type "Teach" }}
         <i class="fa-li fas fa-chalkboard-teacher"></i>
         {{ end }}
       </li>
