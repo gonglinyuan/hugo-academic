@@ -114,7 +114,7 @@
             <div class="description">
               <p class="institution">{{ .institution }}</p>
               <p class="position">{{ .position }}</p>
-              <p class="advise">{{ .advise }}</p>
+              <p class="advise">{{ .advise | markdownify }}</p>
               <p class="year">{{ .year }}</p>
             </div>
           </li>
