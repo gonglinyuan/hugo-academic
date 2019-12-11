@@ -64,6 +64,12 @@
       {{ else if not $show_authors_only }}
         {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
       {{ end }}
+
+      {{ if $item.Params.venue }}
+      <div>
+        {{ $item.Params.venue }}
+      </div>
+      {{ end }}
     </div>
 
     {{ if $show_buttons }}
