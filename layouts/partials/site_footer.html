@@ -11,6 +11,8 @@
   </p>
   {{ end }}
 
+  {{ template "_internal/google_analytics.html" . }}
+
   <p class="powered-by">
     Last Modified on {{ .Lastmod.Format site.Params.date_format }} &middot;
 
