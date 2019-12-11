@@ -106,14 +106,14 @@
 
       {{ with $person.experience }}
       <div class="col-md-7">
-        <h3>{{ i18n "experience" | markdownify }}</h3>
+        <h3>{{ i18n "experiences" | markdownify }}</h3>
         <ul class="ul-exp fa-ul">
           {{ range .courses }}
           <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
+            <i class="fa-li fas fa-flask"></i>
             <div class="description">
               <p class="institution">{{ .institution }}</p>
-              <p class="course">{{ .position }}</p>
+              <p class="position">{{ .position }}</p>
               <p class="advise">{{ .advise }}</p>
               <p class="year">{{ .year }}</p>
             </div>
