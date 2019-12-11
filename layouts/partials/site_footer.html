@@ -12,6 +12,8 @@
   {{ end }}
 
   <p class="powered-by">
+    Last Modified {{ .Lastmod.Format site.Params.date_format }}
+
     {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
 
     Powered by the
