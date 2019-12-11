@@ -78,6 +78,9 @@
 - id: education
   translation: Education
 
+- id: experiences
+  translation: Experiences
+
 - id: user_profile_latest
   translation: Latest
 

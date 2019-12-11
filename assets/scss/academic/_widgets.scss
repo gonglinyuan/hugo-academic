@@ -348,6 +348,38 @@ ul.ul-edu li .description p.year {
   color: rgba(0,0,0,0.6);
 }
 
+ul.ul-exp {
+  list-style: none;
+}
+
+ul.ul-exp li {
+  position: relative;
+  padding: 0px 15px 4px 3px;
+}
+
+ul.ul-exp li .description p {
+  margin: 0;
+}
+
+ul.ul-exp li .description p.institution {
+  font-size: 0.9rem;
+}
+
+ul.ul-exp li .description p.position {
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
+
+ul.ul-exp li .description p.advise {
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
+
+ul.ul-exp li .description p.year {
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
+
 /*************************************************
  * Experience
  **************************************************/
